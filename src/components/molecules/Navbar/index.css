@@ -1,0 +1,8 @@
+.navbar__wrapper:hover .cover__sub__data {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.navbar__wrapper:hover .nav__item p {
+  color: rgb(130, 130, 130);
+}

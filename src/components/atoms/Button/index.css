@@ -1,0 +1,19 @@
+.download__button {
+  padding: 15px 100px !important;
+  background-color: rgba(255, 255, 255, 0.168) !important;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff !important;
+  max-width: 400px;
+  transition: 0.3s ease-in-out;
+}
+
+.download__button:hover {
+  background-color: rgba(255, 255, 255, 0.415) !important;
+}
+
+@media screen and (max-width: 600px) {
+  .download__button {
+    padding: 15px 40px !important;
+  }
+}
