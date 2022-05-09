@@ -1,0 +1,19 @@
+.about__browser__header h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about__browser__header p {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 900px) {
+  .about__browser__header h3 {
+    font-size: 45px;
+  }
+  .about__browser__header p {
+    font-size: 25px;
+  }
+}

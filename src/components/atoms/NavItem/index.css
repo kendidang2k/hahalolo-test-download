@@ -15,6 +15,7 @@
 .cover__nav__item .nav__item p {
   font-size: 12px;
   font-weight: bold;
+  display: none;
 }
 
 .cover__sub__data {
@@ -127,6 +128,12 @@
 }
 
 @media (min-width: 900px) {
+  .cover__nav__item .nav__item p {
+    display: block;
+  }
+  .cover__nav__item .nav__item img {
+    display: none;
+  }
   .cover__sub__data {
     padding: 70px 20px 20px 20px;
   }

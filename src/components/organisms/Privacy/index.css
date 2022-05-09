@@ -1,0 +1,11 @@
+.cover__privacy .note {
+  font-size: 8px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+@media (min-width: 900px) {
+  .cover__privacy .note {
+    font-size: 14px;
+  }
+}

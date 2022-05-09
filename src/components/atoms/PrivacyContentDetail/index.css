@@ -1,0 +1,23 @@
+.cover__privacy__content__detail {
+  background-color: #eeeeee;
+}
+.cover__privacy__detail {
+  align-items: center;
+}
+.cover__privacy__detail p {
+  font-size: 15px;
+  padding: 0 20px;
+}
+
+@media (min-width: 900px) {
+  .cover__privacy__detail img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .cover__privacy__detail p {
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 30px;
+  }
+}

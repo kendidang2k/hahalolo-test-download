@@ -1,0 +1,53 @@
+.cover__feature__item h3,
+.cover__feature__item__reverse h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.cover__feature__item,
+.cover__feature__item__reverse {
+  flex-direction: column-reverse !important;
+}
+
+.cover__feature__item__reverse a,
+.cover__feature__item a {
+  color: rgb(0 64 114);
+}
+
+.cover__feature__item p,
+.cover__feature__item__reverse p {
+  color: #495057;
+  font-size: 15px;
+  width: 95%;
+}
+
+.cover__feature__item img,
+.cover__feature__item__reverse img {
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .cover__feature__item {
+    flex-direction: row !important;
+  }
+  .cover__feature__item__reverse {
+    flex-direction: row-reverse !important;
+  }
+  .cover__feature__item:first-child {
+    flex-direction: row !important;
+  }
+
+  .cover__feature__item img,
+  .cover__feature__item__reverse img {
+    width: 90%;
+  }
+  .cover__feature__item h3,
+  .cover__feature__item__reverse h3 {
+    font-size: 45px;
+  }
+  .cover__feature__item p,
+  .cover__feature__item__reverse p {
+    font-size: 17px;
+  }
+}

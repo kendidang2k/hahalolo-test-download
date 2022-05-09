@@ -1,0 +1,12 @@
+.cover__footer__link__item:first-child .title {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer__link a {
+  color: #adb5bd;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+}

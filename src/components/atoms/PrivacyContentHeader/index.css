@@ -1,0 +1,16 @@
+.cover__privacy__content__header .cover__title p {
+  font-weight: bold;
+}
+
+.cover__header__detail p {
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+@media (min-width: 900px) {
+  .cover__privacy__content__header .cover__title p {
+    text-align: left;
+    margin: 0;
+  }
+}

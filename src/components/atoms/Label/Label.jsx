@@ -7,10 +7,13 @@ import './Label.css'
  * @param {*} label: String (text of label) , p:String (type of paragraph tag), color: String (color code of text), marginBottom: int (range with under element),className:String (classname of tag)
  * @returns jsx
  */
-export default function Label({ label, type, color, marginBottom, className }) {
+export default function Label({ label, type, color, marginBottom, className, html }) {
     return (
-        <Typography className={className} variant={type} component={type} sx={{ color: `${color}`, marginBottom: `${marginBottom}px`, textAlign: 'center' }}>
-            {label}
-        </Typography>
+        html ? <p dangerouslySetInnerHTML={{ __html: html }}></p >
+            :
+            <Typography className={className} variant={type} component={type} sx={{ color: `${color}`, marginBottom: `${marginBottom}px`, textAlign: 'center' }}>
+                {label}
+            </Typography>
+
     )
 }

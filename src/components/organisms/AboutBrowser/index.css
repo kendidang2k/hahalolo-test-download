@@ -1,0 +1,42 @@
+.cover__about__browser::before {
+  content: "";
+  background-image: url("../../../assets/images/homepage/browser-embellishments.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  width: 1000px;
+  height: 300px;
+  position: absolute;
+  left: -70px;
+  top: 253px;
+  transform: rotate(215deg);
+  pointer-events: none;
+}
+
+.cover__about__browser::after {
+  content: "";
+  background-image: url("../../../assets/images/homepage/browser-embellishments.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  width: 1000px;
+  height: 300px;
+  position: absolute;
+  right: -300px;
+  top: 350px;
+  transform: rotate(75deg);
+  pointer-events: none;
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .cover__about__browser::before {
+    left: -170px;
+    top: 353px;
+    transform: rotate(80deg);
+    pointer-events: none;
+  }
+  .cover__about__browser::after {
+    display: block;
+  }
+}

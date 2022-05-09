@@ -1,0 +1,15 @@
+.privacy__header h3 {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media (min-width: 900px) {
+  .privacy__header h3 {
+    font-size: 35px;
+  }
+  .privacy__header p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

@@ -2,6 +2,10 @@
   font-size: 20px;
   color: #fff;
   z-index: -2 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .cover__logo svg {

@@ -6,6 +6,7 @@ import ButtonGroup from '../../molecules/ButtonGroup/ButtonGroup'
 import { bgcolor } from '@mui/system'
 
 import './index.css'
+import Link from '../../atoms/Link/Link'
 
 /**
  * author: Loc
@@ -34,7 +35,7 @@ export default function Header() {
         }
     }
 
-    window.addEventListener('scroll', changeHeaderBackground)
+    window.addEventListener('wheel', changeHeaderBackground)
 
     return (
         <Grid className={headerActive ? 'header__active' : ''} sx={{ position: 'fixed', left: '0', top: 0, width: '100%', height: { xs: '70px', lg: '100px' }, backgroundColor: 'transparent', zIndex: '10', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: { xs: '0 10px', lg: '0 20px' }, transition: '.3s ease-in-out' }}>

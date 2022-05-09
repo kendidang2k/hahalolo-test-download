@@ -1,0 +1,55 @@
+.cover__advance__feature p {
+  text-align: center;
+  margin-bottom: 0px;
+  color: rgb(126, 126, 126);
+}
+
+.cover__advance__feature .subtitle2 {
+  margin-bottom: 20px;
+}
+.cover__advance__feature .title {
+  margin-bottom: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #000;
+}
+
+.cover__advance__feature .cover__feature__signle__item {
+  flex-direction: column-reverse !important;
+  padding-bottom: 20px;
+  max-width: 100%1important;
+}
+.cover__advance__feature .cover__feature__signle__item h3 {
+  margin: 20px 0;
+  font-size: 19px;
+  text-align: left;
+  color: rgb(47, 47, 47);
+}
+
+.cover__advance__feature .cover__feature__signle__item p {
+  text-align: left;
+  margin: 0;
+}
+
+.cover__advance__feature .cover__feature__signle__item img {
+  border-radius: 10px;
+}
+
+.cover__advance__feature p a {
+  color: rgb(0 64 114);
+}
+
+@media (min-width: 900px) {
+  .cover__advance__feature .cover__feature__signle__item h3 {
+    font-size: 25px;
+  }
+  .cover__advance__feature p {
+    font-size: 25px;
+  }
+  .cover__advance__feature .title {
+    font-size: 55px;
+  }
+  .cover__advance__feature .cover__feature__signle__item p {
+    font-size: 20px;
+  }
+}

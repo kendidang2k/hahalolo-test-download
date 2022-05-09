@@ -2,11 +2,18 @@ import { Grid } from '@mui/material';
 import React from 'react'
 import NavItem from '../../atoms/NavItem/NavItem';
 
+import productIcon from '../../../assets/images/navbar/product.svg'
+import browserIcon from '../../../assets/images/navbar/browser.svg'
+import privacyIcon from '../../../assets/images/navbar/privacy.svg'
+import businessIcon from '../../../assets/images/navbar/business.svg'
+import resourceIcon from '../../../assets/images/navbar/resource.svg'
+
 import './index.css'
 
 const navData = [
     {
         title: 'Browser',
+        icon: browserIcon,
         subData: [
             {
                 subTitle: 'Downloads',
@@ -51,6 +58,7 @@ const navData = [
     },
     {
         title: 'Products',
+        icon: productIcon,
         subData: [
             {
                 link: [
@@ -96,6 +104,7 @@ const navData = [
     },
     {
         title: 'Privacy',
+        icon: privacyIcon,
         subData: [
             {
                 link: [
@@ -170,6 +179,7 @@ const navData = [
     },
     {
         title: 'Resource',
+        icon: resourceIcon,
         subData: [
             {
                 subTitle: 'BLOG',
@@ -255,6 +265,7 @@ const navData = [
     },
     {
         title: 'Business',
+        icon: businessIcon,
         subData: [
             {
                 link: [
@@ -361,8 +372,8 @@ const navData = [
 export default function Navbar() {
 
     return (
-        <Grid sx={{ maxWidth: { xs: '100vw', md: '500px' }, width: { xs: '100%', md: 'auto', lg: '500px' }, position: { xs: 'fixed', md: 'relative' }, bottom: '0', left: 0, backgroundColor: { xs: 'rgb(0 64 114)', md: 'transparent' } }}>
-            <Grid className='navbar__wrapper' sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'row' }}>
+        <Grid sx={{ maxWidth: { xs: '100%', md: '500px' }, width: { xs: '100%', md: 'auto', lg: '500px' }, position: { xs: 'fixed', md: 'relative' }, bottom: '0', left: 0, backgroundColor: { xs: 'rgb(0 64 114)', md: 'transparent' } }}>
+            <Grid className='navbar__wrapper' sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', flexDirection: 'row' }}>
                 {
                     navData && navData.map((item, index) => {
                         return (

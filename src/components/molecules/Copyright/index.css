@@ -1,0 +1,18 @@
+.cover__footer__terms a {
+  height: 13px;
+  line-height: 13px;
+  color: #adb5bd;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.cover__footer__terms p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.cover__footer__terms a:first-child {
+  padding-right: 10px;
+  border-right: 2px solid #adb5bd;
+}

@@ -18,12 +18,12 @@ export default function NavItem({ navItem }) {
     return (
         <Grid className='cover__nav__item' >
             <Box className={"nav__item"} sx={{ paddingRight: { xs: '10px', lg: '30px' } }}>
+                <img src={navItem.icon} alt="" width={'40px'} />
                 <Label label={navItem.title} color={"#fff"} type={"p"} />
             </Box>
             <Grid className='cover__sub__data' sx={{ width: { xs: '300px', md: '320px', lg: '520px' }, height: '100vh', position: 'fixed', top: '0', left: '0', zIndex: { xs: 1, md: -1 }, overflowY: 'scroll' }}>
                 {
                     navItem.subData && navItem.subData.map((item, index) => {
-                        console.log("item", item)
                         return (
                             <Grid className='cover__subdata__content' key={index} sx={{ borderBottom: '1px solid #000', marginBottom: '15px', position: 'relative' }}>
                                 <Label className={'sub__title'} label={item.subTitle} type={"p"} color={"#868e96"} />
@@ -49,7 +49,7 @@ export default function NavItem({ navItem }) {
                                                                             {
                                                                                 linkItem.subContent && linkItem.subContent.map((subContentItem, index) => {
                                                                                     return (
-                                                                                        <Box sx={{ marginBottom: '30px', backgroundColor: '#fff', padding: '10px' }}>
+                                                                                        <Box sx={{ marginBottom: '30px', backgroundColor: '#fff', padding: '10px' }} key={index}>
                                                                                             <a href="/">
                                                                                                 {
                                                                                                     subContentItem.img && <img src={subContentItem.img} alt="subcontent image" />
