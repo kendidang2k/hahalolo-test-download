@@ -66,7 +66,6 @@ export default function NavItem({ navItem }) {
                                                                             <Link label={"See all resources"} href={linkItem.seeAllLink} />
                                                                             <FiChevronRight />
                                                                         </Box>
-
                                                                     </Box>
                                                                 </Box>
                                                             )

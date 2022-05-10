@@ -1,0 +1,23 @@
+.question h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(116, 116, 116);
+}
+
+.question .answer {
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 0 20px;
+  color: rgb(81, 81, 81);
+}
+
+.question .answer a {
+  color: #4c54d2;
+}
+
+@media (min-width: 900px) {
+  .question .answer {
+    width: 70%;
+  }
+}

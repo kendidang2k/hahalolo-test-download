@@ -9,7 +9,7 @@ import './Label.css'
  */
 export default function Label({ label, type, color, marginBottom, className, html }) {
     return (
-        html ? <p dangerouslySetInnerHTML={{ __html: html }}></p >
+        html ? <p dangerouslySetInnerHTML={{ __html: html }} className={className}></p >
             :
             <Typography className={className} variant={type} component={type} sx={{ color: `${color}`, marginBottom: `${marginBottom}px`, textAlign: 'center' }}>
                 {label}

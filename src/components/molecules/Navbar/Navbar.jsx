@@ -20,7 +20,7 @@ const navData = [
                 link: [
                     {
                         title: 'Desktop',
-                        href: '/'
+                        href: '/desktop-download'
                     },
                     {
                         title: 'Android',
@@ -368,6 +368,11 @@ const navData = [
     },
 
 ]
+
+/**
+ * Author: Loc
+ * @returns jsx
+ */
 
 export default function Navbar() {
 

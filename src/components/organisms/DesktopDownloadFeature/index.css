@@ -1,0 +1,19 @@
+.desktop__download__feature .cover__feature__signle__item {
+  flex-direction: column-reverse !important;
+  padding: 0 20px 50px 20px;
+}
+
+.desktop__download__feature .cover__feature__signle__item .media {
+  min-height: 250px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop__download__feature .cover__feature__signle__item h3 {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 15px;
+  font-weight: initial;
+}
