@@ -1,0 +1,43 @@
+.cover__version .title {
+  text-align: left;
+  font-size: 32px;
+}
+
+.cover__version .sub__title {
+  text-align: left;
+  font-size: 22px;
+  line-height: 25px;
+  color: rgb(53, 53, 53);
+  margin: 30px 0;
+}
+
+.cover__version .sub__content {
+  font-size: 15px;
+  line-height: 25px;
+  color: rgb(73, 73, 73);
+}
+.cover__version .sub__content span {
+  background-color: #ededf1;
+  padding: 0px 5px;
+  border-radius: 3px;
+}
+
+.cover__version .sub__content a {
+  color: #4c54d2;
+}
+
+.cover__version .last__note {
+  text-align: left;
+  color: rgb(73, 73, 73);
+  font-size: 14px;
+  line-height: 29px;
+}
+
+@media (min-width: 900px) {
+  .cover__version .title {
+    font-size: 40px;
+  }
+  .cover__version .sub__content {
+    font-size: 17px;
+  }
+}

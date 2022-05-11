@@ -1,0 +1,12 @@
+.cover__code__screen p {
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  line-height: 25px;
+}
+
+.cover__code__screen .sub__title {
+  text-align: left;
+  font-size: 25px;
+}

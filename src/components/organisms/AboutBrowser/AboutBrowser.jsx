@@ -51,7 +51,7 @@ const aboutData = {
 export default function AboutBrowser() {
     return (
         <Grid className='cover__about__browser' sx={{ background: 'linear-gradient(135deg, rgba(0,31,65,1) 0%, rgba(0,66,117,1) 48%, rgba(36,168,216,1) 100%)', position: 'relative', overflow: 'hidden', paddingBottom: '100px' }}>
-            <Grid sx={{ maxWidth: { xs: '375px', sm: '650px', md: '1080px' }, margin: 'auto', padding: { xs: '100px 10px 10px 10px', sm: '200px 10px 10px 10px', md: '300px 10px 10px 10px' } }}>
+            <Grid sx={{ maxWidth: { xs: '375px', sm: '650px', md: '1080px' }, margin: 'auto', padding: { xs: '100px 10px 10px 10px', sm: '200px 10px 10px 10px', md: '15% 10px 10px 10px' } }}>
                 <Box sx={{ width: '100%', height: 'auto', overflow: 'hidden', position: 'absolute', top: '-20px', left: 0, zIndex: '8', transform: 'rotate(180deg)', pointerEvents: 'none' }}>
                     <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg" className="transition duration-300 ease-in-out delay-150"><path d="M 0,500 C 0,500 0,250 0,250 C 262,293.5 524,337 764,337 C 1004,337 1222,293.5 1440,250 C 1440,250 1440,500 1440,500 Z" stroke="none" strokeWidth="0" fill="#ffffff" className="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>
                 </Box>

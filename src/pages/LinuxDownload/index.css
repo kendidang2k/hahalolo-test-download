@@ -1,0 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+
+.linux__download .banner {
+  padding-bottom: 15%;
+}

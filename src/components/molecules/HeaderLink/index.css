@@ -1,0 +1,22 @@
+.cover__header__link .header__link a {
+  font-size: 12px;
+  color: #4c54d2;
+}
+
+.cover__header__link p {
+  color: #6f717a;
+  font-size: 14px;
+}
+
+.cover__header__link a {
+  color: #4c54d2;
+}
+
+@media (min-width: 900px) {
+  .cover__header__link .header__link a {
+    font-size: 18px;
+  }
+  .cover__header__link p {
+    font-size: 18px;
+  }
+}

@@ -32,7 +32,7 @@ const navData = [
                     },
                     {
                         title: 'Linux',
-                        href: '/'
+                        href: '/linux-download'
                     },
                     {
                         title: 'Beta release',

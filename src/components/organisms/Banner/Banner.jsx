@@ -23,7 +23,9 @@ export default function Banner({ img, bannerContent }) {
         <Parallax bgImage={banner} strength={-500} >
             <Grid id="banner" className='banner' sx={{ width: '100%', paddingTop: { xs: '50px', md: '100px' }, paddingBottom: '37%', position: 'relative', top: 0, left: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', overflow: 'hidden', paddingLeft: '20px', paddingRight: '20px' }}>
                 <BannerContent bannerContent={bannerContent} />
-                <Image src={img.src} alt={img.alt} width={img.width} height={img.height} isInsideBanner={true} />
+                {
+                    img && <Image src={img.src} alt={img.alt} width={img.width} height={img.height} isInsideBanner={true} />
+                }
                 <Box sx={{ width: '100%', height: 'auto', overflow: 'hidden', position: 'absolute', bottom: '-20px', zIndex: '8' }}>
                     {
                         bannerContent.bottomBanner ?
