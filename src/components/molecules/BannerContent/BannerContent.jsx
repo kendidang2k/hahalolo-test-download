@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
+import { handleDownload } from '../../../functions/handleDownload'
 import Button from '../../atoms/Button/Button'
 import Label from '../../atoms/Label/Label'
 
@@ -13,16 +14,6 @@ import './index.css'
  */
 
 export default function BannerContent({ bannerContent }) {
-    const handleDownloadFile = () => {
-        const OS = navigator.platform;
-        if (OS.includes("Win")) {
-            window.open("https://dev-twosite.teknix.vn/uploads/backup/windows/ChromeSetup.exe")
-        } else if (OS.includes("Linux")) {
-            window.open("https://dev-twosite.teknix.vn/uploads/backup/linux/google-chrome-stable_current_amd64.deb")
-        } else if (OS.includes("Mac")) {
-            window.open("https://dev-twosite.teknix.vn/uploads/backup/mac/googlechrome.dmg")
-        }
-    }
 
     return (
         <Grid className='banner__content' sx={{ width: '100%' }}>
@@ -33,7 +24,7 @@ export default function BannerContent({ bannerContent }) {
                 <Label label={bannerContent.title} type={"h2"} color={"#fff"} marginBottom={20} className="title" />
                 <Label label={bannerContent.subTitle} type={'h5'} color={'#fff'} marginBottom={20} className={"sub__title"} />
                 {
-                    bannerContent.button && <Button handleFunction={handleDownloadFile} className={bannerContent.buttonClassName} label={bannerContent.button.label} type={bannerContent.button.type} />
+                    bannerContent.button && <Button handleFunction={handleDownload} className={bannerContent.buttonClassName} label={bannerContent.button.label} type={bannerContent.button.type} />
                 }
                 {
                     bannerContent.downloadNote && <Label html={bannerContent.downloadNote} className={"download__note"} />

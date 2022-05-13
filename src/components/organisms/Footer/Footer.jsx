@@ -44,7 +44,7 @@ const footerLinkData = [
                 title: 'Privacy Policy',
                 linkList: [
                     {
-                        title: 'Brave Browser',
+                        title: 'HakgokBrowser',
                         href: '/'
                     },
                     {
@@ -69,15 +69,15 @@ const footerLinkData = [
                 title: 'Product',
                 linkList: [
                     {
-                        title: 'Brave Release',
+                        title: 'HakgokRelease',
                         href: '/'
                     },
                     {
-                        title: 'Brave Beta',
+                        title: 'HakgokBeta',
                         href: '/'
                     },
                     {
-                        title: 'Brave Nightly',
+                        title: 'HakgokNightly',
                         href: '/'
                     }
                 ]
@@ -202,7 +202,7 @@ const footerLinkData = [
                 title: 'Offices',
             },
             {
-                title: 'Brave San Francisco',
+                title: 'HakgokSan Francisco',
                 linkList: [
                     {
                         title: '580 Howard St. Unit 402,San Francisco, CA 94105',

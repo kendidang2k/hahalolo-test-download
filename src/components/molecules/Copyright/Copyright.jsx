@@ -18,7 +18,7 @@ export default function Copyright() {
                     <Link href={"/"} label={"Terms of Use"} />
                     <Link href={"/"} label={"Report a Security Issue"} />
                 </Box>
-                <Label label={"© 2015 - 2022 Brave Software, Inc. | All rights reserved"} type={'p'} color={"#adb5bd"} />
+                <Label label={"© 2015 - 2022 Hakgok Software, Inc. | All rights reserved"} type={'p'} color={"#adb5bd"} />
             </Box>
 
         </Grid>

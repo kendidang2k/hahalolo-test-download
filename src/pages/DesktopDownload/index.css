@@ -1,13 +1,3 @@
-.desktop__download .banner .banner__content .button__base {
-  padding: 15px 20px !important;
-  background-color: rgba(255, 255, 255, 0.168) !important;
-  font-size: 15px;
-  font-weight: bold;
-  color: #fff !important;
-  max-width: 500px;
-  transition: 0.3s ease-in-out;
-}
-
 .middle__banner {
   background-image: linear-gradient(9deg, #7b0d93 0%, #ef5b00 100%),
     url(../../assets/images/desktop-download-page/coding-background-texture.jpg);
@@ -16,8 +6,8 @@
 }
 
 @media (min-width: 900px) {
-  .desktop__download .banner .banner__content .button__base {
-    padding: 18px 100px !important;
+  .desktop__download .button__inside__banner {
+    padding: 25px 50px !important;
     font-size: 20px;
   }
 }

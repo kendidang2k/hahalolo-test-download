@@ -49,8 +49,8 @@ const navData = [
                 subTitle: 'Compare',
                 link: [
                     {
-                        title: 'Brave .vs Chrome',
-                        href: '/'
+                        title: 'Hakgok .vs Chrome',
+                        href: '/compare-with-chrome'
                     }
                 ]
             }
@@ -109,7 +109,7 @@ const navData = [
             {
                 link: [
                     {
-                        title: 'Why Brave ?',
+                        title: 'Why Hakgok ?',
                         href: '/'
                     },
                     {
@@ -137,7 +137,7 @@ const navData = [
                         seeAllLink: '/',
                     },
                     {
-                        title: 'Brave Shields',
+                        title: 'Hakgok Shields',
                         href: '/'
                     },
                     {
@@ -170,7 +170,7 @@ const navData = [
                         href: '/'
                     },
                     {
-                        title: "Brave's privacy policy",
+                        title: "Hakgok's privacy policy",
                         href: '/'
                     }
                 ]

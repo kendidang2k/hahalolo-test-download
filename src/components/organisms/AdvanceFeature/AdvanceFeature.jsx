@@ -11,7 +11,7 @@ import './index.css'
 const advanceFeatureData = {
     title: "Advance Features",
     subTitle: '<p>Only here for the privacy? We got you. Just <a href=" / ">download</a> and enjoy…</p>',
-    subTitle2: 'Want a more bespoke experience? Brave’s got great customizations, too:',
+    subTitle2: 'Want a more bespoke experience? Hakgok’s got great customizations, too:',
     advanceItemList: [
         {
             image: image1,
@@ -20,7 +20,7 @@ const advanceFeatureData = {
         },
         {
             image: image2,
-            title: 'Brave Rewards',
+            title: 'Hakgok Rewards',
             content: '<p><a href="/">Earn crypto tokens for your attention</a> by opting in to privacy-preserving, first-party ads.</p>'
         },
         {
