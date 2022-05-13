@@ -25,11 +25,7 @@ const bannerContenData = {
     buttonClassName: 'button__inside__banner',
     downloadNote: `<p>Downloads of this version of the Brave Browser (desktop) are available for <a href="/">Windows 64-bit</a>, <a href="/">Windows 32-bit</a>, <a href="/">macOS Intel</a>, <a href="/">macOS ARM64</a> and <a href="/">Linux</a>.</p>`,
     button: {
-<<<<<<< HEAD
-        label: "Download Brave for Windows 64-bit",
-=======
         label: "Download Hakgok for Windows",
->>>>>>> fd175df8c64c953e5b68a49b9ec8a8dd24b552c8
     }
 }
 
