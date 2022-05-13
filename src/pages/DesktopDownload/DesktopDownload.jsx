@@ -24,7 +24,7 @@ const bannerContenData = {
     subTitle: 'The new Brave browser blocks ads and trackers that slow you down and invade your privacy. Discover a new way of thinking about how the web can work.',
     downloadNote: `<p>Downloads of this version of the Brave Browser (desktop) are available for <a href="/">Windows 64-bit</a>, <a href="/">Windows 32-bit</a>, <a href="/">macOS Intel</a>, <a href="/">macOS ARM64</a> and <a href="/">Linux</a>.</p>`,
     button: {
-        label: "Download Brave for Android",
+        label: "Download Brave for Windows 64-bit",
     }
 }
 
