@@ -16,9 +16,10 @@ const bannerContenData = {
     title: 'The best privacy online',
     subTitle: '3x faster than Chrome. Better protection from Google and Big Tech.',
     download: '',
+    buttonClassName: 'button__inside__banner',
     button: {
         type: 'download',
-        label: 'Download Brave'
+        label: 'Download Hakgok'
     }
 }
 
@@ -31,7 +32,7 @@ const imgInsideBanner = {
 
 export default function HomePage() {
     return (
-        <Grid >
+        <Grid className='home__page'>
             <Header />
             <Banner img={imgInsideBanner} bannerContent={bannerContenData} />
             <Box sx={{ maxWidth: { xs: '375px', md: '1088px' }, margin: 'auto', paddingTop: '20px', zIndex: '10000' }}>

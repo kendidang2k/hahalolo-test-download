@@ -1,1 +1,10 @@
+.home__page .button__inside__banner {
+  padding: 15px 50px !important;
+}
 
+@media (min-width: 900px) {
+  .home__page .button__inside__banner {
+    padding: 25px 50px !important;
+    font-size: 25px !important;
+  }
+}

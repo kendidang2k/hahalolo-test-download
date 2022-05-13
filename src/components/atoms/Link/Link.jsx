@@ -6,8 +6,8 @@ import React from 'react'
  * @returns 
  */
 
-export default function Link({ label, href, mailto }) {
+export default function Link({ label, href, mailto, className }) {
     return (
-        <a href={mailto ? `mailto:${href}` : href}> {label}</a >
+        <a href={mailto ? `mailto:${href}` : href} className={className}> {label}</a >
     )
 }

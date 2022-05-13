@@ -19,20 +19,20 @@ import './index.css'
 import Footer from '../../components/organisms/Footer/Footer'
 
 const bannerContenData = {
-    title: 'Download Brave Beta',
+    title: 'Download Hakgok Beta',
     beforeTitle: 'PREVIEW THE LATEST FEATURES FOR DESKTOP',
-    subTitle: 'Brave Beta is an early preview for new versions of Brave. This build showcases the newest advances that we’re bringing to your browser and it’s ready for your daily use. Brave Beta automatically sends us crash reports when things go wrong.',
-    downloadNote: `<p>Downloads of this version of Brave are available for <a href="/">Windows 64-bit</a>, <a href="/">Windows 32-bit</a>, <a href="/">macOS Intel</a>, <a href="/">macOS ARM64</a> and <a href="/">Linux</a>.</p>`,
+    subTitle: 'Hakgok Beta is an early preview for new versions of Hakgok. This build showcases the newest advances that we’re bringing to your browser and it’s ready for your daily use. Hakgok Beta automatically sends us crash reports when things go wrong.',
+    downloadNote: `<p>Downloads of this version of Hakgok are available for <a href="/">Windows 64-bit</a>, <a href="/">Windows 32-bit</a>, <a href="/">macOS Intel</a>, <a href="/">macOS ARM64</a> and <a href="/">Linux</a>.</p>`,
     buttonClassName: 'button__inside__banner',
     button: {
-        label: "Download Beta for Windows 64-bit",
+        label: "Download Beta for Windows                   ",
     }
 }
 
 const featureItemData = {
-    title: 'Help improve Brave Beta',
-    content: '<p>Brave Beta is a test, but relatively stable, version of soon-to-be-released features. We value your feedback and help in testing this early version of Brave. <p>Brave is open source and always available to <a href="/">review on GitHub</a> . For support, please visit <a href="/">community.brave.com.</a></p> </p>',
-    button: "Join the Brave Community",
+    title: 'Help improve Hakgok Beta',
+    content: '<p>Hakgok Beta is a test, but relatively stable, version of soon-to-be-released features. We value your feedback and help in testing this early version of Hakgok. <p>Hakgok is open source and always available to <a href="/">review on GitHub</a> . For support, please visit <a href="/">community.brave.com.</a></p> </p>',
+    button: "Join the Hakgok Community",
     image: featureImage,
     video: '',
     reverse: false
@@ -46,33 +46,33 @@ const imgInsideBanner = {
 }
 
 const braveBuildChannelData = {
-    title: 'Brave build channels',
-    headerContent: 'Brave has a fast iterative development cycle, split into three stages. New features are typically first introduced in the Nightly channel. After we’ve polished a bit, we’ll move those features into the Beta build. Then, after final testing, we’ll merge to the Release version of Brave. This is the version that most users access on a daily basis.',
+    title: 'Hakgok build channels',
+    headerContent: 'Hakgok has a fast iterative development cycle, split into three stages. New features are typically first introduced in the Nightly channel. After we’ve polished a bit, we’ll move those features into the Beta build. Then, after final testing, we’ll merge to the Release version of Brave. This is the version that most users access on a daily basis.',
     channels: [
         {
-            title: 'Brave Nightly',
+            title: 'Hakgok Nightly',
             image: channelImg1,
-            detail: `<p>Brave Nightly is our testing and development version of Brave. The releases are updated every night and may contain bugs that can result in data loss.</p>`,
+            detail: `<p>Hakgok Nightly is our testing and development version of Brave. The releases are updated every night and may contain bugs that can result in data loss.</p>`,
             link: {
-                label: 'Learn more about Brave Nightly',
+                label: 'Learn more about Hakgok Nightly',
                 href: '/'
             }
         },
         {
-            title: 'Brave Beta',
+            title: 'Hakgok Beta',
             image: channelImg2,
-            detail: `<p>Brave Beta is an early preview for new versions of Brave. This build showcases the newest advances that we’re bringing to our browser.</p>`,
+            detail: `<p>Hakgok Beta is an early preview for new versions of Brave. This build showcases the newest advances that we’re bringing to our browser.</p>`,
             link: {
-                label: 'Learn more about Brave Beta',
+                label: 'Learn more about Hakgok Beta',
                 href: '/'
             }
         },
         {
-            title: 'Brave Release',
+            title: 'Hakgok Release',
             image: channelImg3,
             detail: `<p>This is our <span>official release version</span> of Brave, with new releases landing approximately every four weeks.</p>`,
             link: {
-                label: 'Learn more about Brave Nightly',
+                label: 'Learn more about Hakgok Nightly',
                 href: '/'
             }
         }
@@ -80,9 +80,9 @@ const braveBuildChannelData = {
 }
 
 const middleBannerData = {
-    title: 'Brave Browser for mobile',
+    title: 'Hakgok Browser for mobile',
     image: mobile,
-    content: "Brave is available as a fast, free, secure web browser for your mobile devices. Complete with a built-in ad blocker that prevents tracking, and optimized for mobile data and battery life savings. Get the Brave Browser (mobile) for Android or iOS.",
+    content: "Hakgok is available as a fast, free, secure web browser for your mobile devices. Complete with a built-in ad blocker that prevents tracking, and optimized for mobile data and battery life savings. Get the Brave Browser (mobile) for Android or iOS.",
     QRCode: QRCode,
     buttonGroup: [
         {

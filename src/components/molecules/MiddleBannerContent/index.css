@@ -20,6 +20,12 @@
   width: 100%;
 }
 
+.middle__banner__content .download__button {
+  padding: 15px 50px !important;
+  border: 1px solid #fff;
+  width: auto;
+}
+
 .middle__banner__content button img {
   width: 100%;
 }

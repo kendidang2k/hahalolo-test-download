@@ -17,6 +17,7 @@ import Link from '../../atoms/Link/Link'
 const buttonGrData = [
     {
         label: 'Download Brave',
+        isDownloadButton: true
     },
     {
         label: 'Try Brave Search',
@@ -37,8 +38,11 @@ export default function Header() {
 
     window.addEventListener('wheel', changeHeaderBackground)
 
+
+
+
     return (
-        <Grid className={headerActive ? 'header__active' : ''} sx={{ position: 'fixed', left: '0', top: 0, width: '100%', height: { xs: '70px', lg: '100px' }, backgroundColor: 'transparent', zIndex: '10', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: { xs: '0 10px', lg: '0 20px' }, transition: '.3s ease-in-out' }}>
+        <Grid className={headerActive ? 'header__active header__bar' : 'header__bar'} sx={{ position: 'fixed', left: '0', top: 0, width: '100%', height: { xs: '70px', lg: '100px' }, backgroundColor: 'transparent', zIndex: '10', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: { xs: '0 10px', lg: '0 20px' }, transition: '.3s ease-in-out' }}>
             <Navbar />
             <Logo />
             <ButtonGroup dataArray={buttonGrData} isHeaderButton={true} />

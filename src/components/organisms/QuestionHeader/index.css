@@ -1,0 +1,36 @@
+.question__header .question {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(60, 60, 60);
+}
+
+.question__header img {
+  width: 80px;
+}
+
+.question__header .vs {
+  font-size: 23px;
+  font-weight: bold;
+  color: rgb(60, 60, 60);
+}
+
+.question__header .answer {
+  padding: 0 20px;
+  font-weight: bold;
+  line-height: 30px;
+  color: rgb(60, 60, 60);
+}
+
+@media (min-width: 900px) {
+  .question__header .answer {
+    padding: 0 18%;
+    font-size: 18px;
+  }
+  .question__header img {
+    width: 160px;
+  }
+
+  .question__header .vs {
+    font-size: 43px;
+  }
+}
