@@ -8,13 +8,11 @@
   transition: 0.3s ease-in-out;
 }
 
-.react-parallax img {
-}
-
 .middle__banner {
   background-image: linear-gradient(9deg, #7b0d93 0%, #ef5b00 100%),
     url(../../assets/images/desktop-download-page/coding-background-texture.jpg);
   background-blend-mode: overlay;
+  background-size: cover;
 }
 
 @media (min-width: 900px) {

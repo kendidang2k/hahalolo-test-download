@@ -17,6 +17,9 @@ export default function MiddleBannerContent({ middleBannerContent }) {
             <Image src={middleBannerContent.image} alt={"middle banner image"} />
             <Label label={middleBannerContent.title} type={"h3"} color={"#fff"} />
             <Label label={middleBannerContent.content} type={"p"} color={"#fff"} className={"middle__banner__content__detail"} />
+            {
+                middleBannerContent.QRCode && <Image src={middleBannerContent.QRCode} alt={"QR code"} className={"QRCode"} />
+            }
             <Grid sx={{ width: '50%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexDirection: { xs: 'column', md: 'row' }, marginTop: '20px' }}>
                 {
                     middleBannerContent.buttonGroup && middleBannerContent.buttonGroup.map((item, index) => {

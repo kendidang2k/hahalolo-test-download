@@ -1,0 +1,28 @@
+.channel__item .title {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(68, 68, 68);
+}
+
+.channel__item .detail {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(86, 86, 86);
+  padding: 0 20px;
+}
+
+.channel__item a {
+  color: #4c54d2;
+  font-size: 14px;
+}
+
+@media (min-width: 900px) {
+  .channel__item .title {
+    font-size: 30px;
+  }
+  .channel__item .detail {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}

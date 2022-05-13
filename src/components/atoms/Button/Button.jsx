@@ -11,9 +11,9 @@ import Image from '../Image/Image';
  * @returns jsx
  */
 
-export default function Button({ label, type, image }) {
+export default function Button({ label, type, image, className, handleFunction }) {
     return (
-        <ButtonBase className={type === 'download' ? 'download__button' : 'button__base'} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '40px' }}>
+        <ButtonBase onClick={handleFunction} className={type === 'download' ? `download__button ${className}` : `button__base ${className}`} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '40px' }}>
             {
                 type === 'download' && <FiDownload style={{ marginRight: '10px', fontSize: '25px' }} />
             }

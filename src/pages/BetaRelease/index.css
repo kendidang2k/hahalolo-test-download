@@ -1,0 +1,56 @@
+/* .beta__release .banner .banner__content .button__base {
+  padding: 15px 20px !important;
+  background-color: rgba(255, 255, 255, 0.168) !important;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff !important;
+  max-width: 500px;
+  transition: 0.3s ease-in-out;
+  line-height: 20px;
+} */
+
+.beta__release .banner .banner__content .before__title {
+  font-size: 9px;
+  letter-spacing: 3px;
+}
+.beta__release .cover__feature__signle__item {
+  flex-direction: column !important;
+  border-bottom: 1px solid #ced0db;
+  padding-bottom: 50px;
+}
+.beta__release .cover__feature__signle__item button {
+  background-color: #fb542b;
+  width: 70%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.beta__release .cover__feature__signle__item img {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 900px) {
+  .beta__release .banner .banner__content .button__base {
+    padding: 18px 50px !important;
+    font-size: 20px;
+  }
+  .beta__release .banner .banner__content .before__title {
+    font-size: 14px;
+    letter-spacing: 4px;
+  }
+  .beta__release .cover__feature__signle__item {
+    flex-direction: row !important;
+    padding-bottom: 150px;
+  }
+  .beta__release .cover__feature__signle__item h3 {
+    font-size: 35px;
+  }
+  .beta__release .cover__feature__signle__item button {
+    width: fit-content;
+    font-size: 21px;
+    padding: 15px 25px;
+  }
+}

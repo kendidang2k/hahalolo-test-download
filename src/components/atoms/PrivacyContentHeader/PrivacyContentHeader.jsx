@@ -12,8 +12,6 @@ import './index.css'
  */
 
 export default function PrivacyContentHeader({ title, data }) {
-
-    console.log("data", data);
     return (
         <Grid container className='cover__privacy__content__header' sx={{ backgroundColor: '#eeeeee', padding: '20px 10px', alignItems: 'center' }}>
             <Grid item xs={12} md={7} className="cover__title" sx={{ padding: '10px 20px', display: 'flex', alignItems: 'center' }}>

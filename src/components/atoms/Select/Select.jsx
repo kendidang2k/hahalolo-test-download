@@ -6,7 +6,6 @@ import React from 'react'
  * @returns jsx
  */
 export default function Select({ name, id, options }) {
-    console.log("options", options)
     return (
         <select name={name} id={id}>
             {

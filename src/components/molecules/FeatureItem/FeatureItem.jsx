@@ -1,5 +1,6 @@
 import { Grid } from '@mui/material'
 import React from 'react'
+import Button from '../../atoms/Button/Button'
 import Label from '../../atoms/Label/Label'
 import Video from '../../atoms/Video/Video'
 
@@ -17,6 +18,9 @@ export default function FeatureItem({ featureItem, index }) {
                 <Label label={featureItem.title} type={'h3'} />
                 {
                     featureItem.content && <Label html={featureItem.content} />
+                }
+                {
+                    featureItem.button && <Button label={featureItem.button} />
                 }
             </Grid>
             <Grid item xs={12} md={6} className="media" sx={{ maxWidth: '100%!important' }}>

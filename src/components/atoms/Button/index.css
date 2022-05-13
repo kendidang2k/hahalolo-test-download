@@ -12,6 +12,17 @@
   background-color: rgba(255, 255, 255, 0.415) !important;
 }
 
+.button__inside__banner {
+  padding: 15px 20px !important;
+  background-color: rgba(255, 255, 255, 0.168) !important;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff !important;
+  max-width: 500px;
+  transition: 0.3s ease-in-out;
+  line-height: 20px;
+}
+
 @media screen and (max-width: 600px) {
   .download__button {
     padding: 15px 40px !important;

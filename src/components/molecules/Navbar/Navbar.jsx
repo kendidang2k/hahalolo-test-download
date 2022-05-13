@@ -36,12 +36,12 @@ const navData = [
                     },
                     {
                         title: 'Beta release',
-                        href: '/'
+                        href: '/beta-release'
                     }
                     ,
                     {
                         title: 'All downloads',
-                        href: '/'
+                        href: '/all-download'
                     }
                 ]
             },

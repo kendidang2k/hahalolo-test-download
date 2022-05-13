@@ -14,7 +14,6 @@ export default function FooterLink({ linkItem }) {
             <Label label={linkItem.title} type={"p"} color={"#fff"} className={"title"} />
             {
                 linkItem.linkList && linkItem.linkList.map((item, index) => {
-                    console.log("item", item);
                     return (
                         <Box className="footer__link" sx={{ marginBottom: '10px' }} key={index}>
                             {

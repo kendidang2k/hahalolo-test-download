@@ -16,6 +16,10 @@
   margin-top: 20px;
 }
 
+.middle__banner__content .QRCode {
+  width: 100%;
+}
+
 .middle__banner__content button img {
   width: 100%;
 }
@@ -26,5 +30,8 @@
   }
   .middle__banner__content .middle__banner__content__detail {
     width: 70%;
+  }
+  .middle__banner__content .QRCode {
+    width: 45%;
   }
 }
